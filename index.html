@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hidroponik Indonesia - Beranda</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Hidroponik - Beranda</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">🌱 Hidroponik Indonesia</div>
+        <nav class="container">
+            <div class="logo">Hidroponik</div>
             <ul class="nav-links">
-                <li><a href="index.html" class="active">Beranda</a></li>
-                <li><a href="tanaman.html">Tanaman</a></li>
-                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="/index.html" class="active">Beranda</a></li>
+                <li><a href="/HTML/tanaman.html">Tanaman</a></li>
+                <li><a href="/HTML/about.html">Tentang Kami</a></li>
             </ul>
         </nav>
     </header>
@@ -30,35 +30,35 @@
             <div class="container">
                 <h2>Apa itu Hidroponik?</h2>
                 <div class="info-cards">
-                    <article class="card">
-                        <h3>💧 Tanpa Tanah</h3>
+                    <div class="card">
+                        <h3>Tanpa Tanah</h3>
                         <p>Hidroponik adalah metode bercocok tanam yang menggunakan air sebagai media tanam utama, menggantikan fungsi tanah dengan larutan nutrisi yang kaya mineral.</p>
-                    </article>
+                    </div>
                     
-                    <article class="card">
-                        <h3>🌿 Hemat Air</h3>
+                    <div class="card">
+                        <h3>Hemat Air</h3>
                         <p>Sistem hidroponik menggunakan air 80-90% lebih sedikit dibandingkan pertanian konvensional karena air dapat didaur ulang dalam sistem tertutup.</p>
-                    </article>
+                    </div>
                     
-                    <article class="card">
-                        <h3>🏠 Cocok di Rumah</h3>
+                    <div class="card">
+                        <h3>Cocok di Rumah</h3>
                         <p>Dapat dilakukan di area terbatas seperti rumah, balkon, atau rooftop. Tidak memerlukan lahan yang luas untuk menghasilkan tanaman berkualitas.</p>
-                    </article>
+                    </div>
                     
-                    <article class="card">
-                        <h3>⚡ Pertumbuhan Cepat</h3>
+                    <div class="card">
+                        <h3>Pertumbuhan Cepat</h3>
                         <p>Tanaman tumbuh 25-30% lebih cepat karena mendapat nutrisi yang tepat dan terkontrol, serta tidak perlu bersaing mencari nutrisi di tanah.</p>
-                    </article>
+                    </div>
                     
-                    <article class="card">
-                        <h3>🛡️ Bebas Hama</h3>
+                    <div class="card">
+                        <h3>Bebas Hama</h3>
                         <p>Risiko hama dan penyakit tanah sangat minimal, sehingga mengurangi penggunaan pestisida dan menghasilkan tanaman yang lebih sehat.</p>
-                    </article>
+                    </div>
                     
-                    <article class="card">
-                        <h3>🌍 Ramah Lingkungan</h3>
+                    <div class="card">
+                        <h3>Ramah Lingkungan</h3>
                         <p>Tidak menggunakan pestisida berbahaya, menghemat air, dan dapat dilakukan sepanjang tahun tanpa tergantung cuaca.</p>
-                    </article>
+                    </div>
                 </div>
             </div>
         </section>
@@ -67,25 +67,40 @@
             <div class="container">
                 <h2>Keunggulan Hidroponik</h2>
                 <div class="benefits-grid">
-                    <div class="benefit-item">
-                        <span class="benefit-icon">📈</span>
-                        <h4>Hasil Lebih Banyak</h4>
-                        <p>Produktivitas hingga 10x lipat per meter persegi</p>
+                    <div class="benefit-card">
+                        <div class="benefit-header">
+                            <h4>Hasil Lebih Banyak</h4>
+                        </div>
+                        <div class="benefit-content">
+                            <p>Produktivitas hingga 10x lipat per meter persegi dibandingkan pertanian konvensional</p>
+                        </div>
                     </div>
-                    <div class="benefit-item">
-                        <span class="benefit-icon">🎯</span>
-                        <h4>Nutrisi Terkontrol</h4>
-                        <p>Pemberian nutrisi sesuai kebutuhan tanaman</p>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-header">
+                            <h4>Nutrisi Terkontrol</h4>
+                        </div>
+                        <div class="benefit-content">
+                            <p>Pemberian nutrisi sesuai kebutuhan tanaman dengan takaran yang tepat dan terukur</p>
+                        </div>
                     </div>
-                    <div class="benefit-item">
-                        <span class="benefit-icon">🔄</span>
-                        <h4>Dapat Dipanen Terus</h4>
-                        <p>Panen berkala tanpa menunggu musim</p>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-header">
+                            <h4>Dapat Dipanen Terus</h4>
+                        </div>
+                        <div class="benefit-content">
+                            <p>Panen berkala tanpa menunggu musim, memungkinkan produksi sepanjang tahun</p>
+                        </div>
                     </div>
-                    <div class="benefit-item">
-                        <span class="benefit-icon">✨</span>
-                        <h4>Kualitas Premium</h4>
-                        <p>Hasil panen lebih bersih dan bergizi</p>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-header">
+                            <h4>Kualitas Premium</h4>
+                        </div>
+                        <div class="benefit-content">
+                            <p>Hasil panen lebih bersih, bergizi, dan bebas dari kontaminasi tanah</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -98,6 +113,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="/JS/script.js"></script>
 </body>
 </html>
